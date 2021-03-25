@@ -1,5 +1,5 @@
 ---
-title: Cascading DropdDown
+title: Cascading DropDown
 description: how to make a cascading a dropdown or combo box.
 type: how-to
 page_title: Cascading DropDown or ComboBox
@@ -31,7 +31,7 @@ Use the `ValueChanged` event to update the model value and to filter the data fo
 >caption Cascading DropDowns
 
 ````DropDownList
-@* Cascading componentsare disabled based on the selection of their parents. Events on parent components
+@* Cascading components are disabled based on the selection of their parents. Events on parent components
     trigger data loading for child components so they show relevant result only.
     You can also see how to get the selected model from a dropdown component.
     The same approach works for a ComboBox (just use nullable values), see the next example *@
